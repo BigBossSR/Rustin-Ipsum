@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color:RGB(208, 211, 202);
+}
+
+p.last-of-type {
+
+}
+
+form {
+	display: inline-block;
+	font-size: 13px;
+}
+
+textarea {
+	margin-top: 5px;
+	padding: 5px 0px 0px 5px;
+}
+
+button {
+	color: RGB(208, 211, 202);
+	background-color: RGB(83, 90, 84);
+	padding: 2px;
+	display: inline-block;
+	font-family: "Conduit", "ITC Conduit", "Trebuchet MS", Helvetica;
+}
+
+.container {
+	margin: 50px 50px;
+	text-align: center;
+	color: RGB(83, 90, 84);
+}
+
+.top {
+	font-family: "Conduit", "ITC Conduit", "Trebuchet MS", Helvetica;
+	text-transform: uppercase;
+	
+}
+
+.title {
+	margin-bottom: 25px;
+
+}
+
+
+
