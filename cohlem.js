@@ -34,7 +34,7 @@ function shuffleArray() {
 		    for (var k = 0; k < 3; k++) {
 		    	if (newArray.length < 300) {
 		    //inserts filler text at a 50/50 rate, and sets the dramatic environment
-		    		if (Math.floor(Math.random() * 10) > 4)
+		    		if (Math.floor(Math.random() * 10) > 4) {
 				    	newArray = newArray + array.shift([k]) + " Sip Lone Star. "
 					} else {
 						newArray = newArray + array.shift([k]) + " Drag on Camel. "
