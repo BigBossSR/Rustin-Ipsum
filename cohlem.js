@@ -5,7 +5,6 @@ function shuffleArray() {
     var array=[]
     var output = "" 
    	var paragraphs = document.getElementById("number").value
-   	var newArray = []
 
 
 //checks if the user wants cusses and populates var array with the contents of wordBank or cleanBank
@@ -30,6 +29,7 @@ function shuffleArray() {
 
 //sets the number of paragraphs based on user input
     for (var l = 0; l < paragraphs; l++ ) {
+    	   	var newArray = []
     	//loops through the shuffled quote bank, breaking paragraphs after 3 quotes, or exceeding 300 characters
 		    for (var k = 0; k < 3; k++) {
 		    	if (newArray.length < 300) {
