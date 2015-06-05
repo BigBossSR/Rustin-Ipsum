@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Rustin Ipsum</title>
 	<link href="cohlem.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -27,15 +28,24 @@
 						</select>
 				</form>
 
-				<button onclick="getElementById('demo').innerHTML=shuffleArray(wordArr)">Generate Text</button>
+				<button onclick="getElementById('demo').innerHTML=shuffleArray()">Generate Text</button>
+			</div>
+			<div class="row">
+					You mind if I Swear?
+					<input type="radio" value="dirty" name="swears" id="dirty" checked>No sweat
+					<input type="radio" name="swears" value="clean">Keep it clean
 			</div>
 	</div>
 
-		<textarea rows="25" cols="70" id="demo"></textarea>
+		<textarea rows="25" cols="60" id="demo"></textarea>
 
 
-
+	<script src="libs/jquery.js"></script>
+	<script src="libs/underscore.js"></script>
 	<script src="cohlem.js"></script>
+
+
+	<div class="bottom">designed by Scott A M Ross | text and image copyright HBO</div>
 
 </div>
 
